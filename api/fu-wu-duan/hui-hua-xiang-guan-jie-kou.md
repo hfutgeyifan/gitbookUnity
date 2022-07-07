@@ -1,0 +1,11 @@
+# 会话相关接口
+
+API目录
+
+| API                                                                                                                                                                                                                                                                                                                  | 描述           |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ |
+| [ConvCreate](https://comm.qq.com/im/sdk/unity\_plus/\_site/api/com.tencent.imsdk.unity.TencentIMSDK.html)                                                                                                                                                                                                            | 创建会话         |
+| [ConvDelete](https://comm.qq.com/im/sdk/unity\_plus/\_site/api/com.tencent.imsdk.unity.TencentIMSDK.html#com\_tencent\_imsdk\_unity\_TencentIMSDK\_ConvDelete\_System\_String\_com\_tencent\_imsdk\_unity\_enums\_TIMConvType\_com\_tencent\_imsdk\_unity\_callback\_ValueCallback\_System\_Object\_\_)              | 删除会话         |
+| [ConvGetConvList](https://comm.qq.com/im/sdk/unity\_plus/\_site/api/com.tencent.imsdk.unity.TencentIMSDK.html#com\_tencent\_imsdk\_unity\_TencentIMSDK\_ConvGetConvList\_com\_tencent\_imsdk\_unity\_callback\_ValueCallback\_System\_Collections\_Generic\_List\_com\_tencent\_imsdk\_unity\_types\_ConvInfo\_\_\_) | 获取最近联系人的会话列表 |
+| [ConvSetDraft](https://comm.qq.com/im/sdk/unity\_plus/\_site/api/com.tencent.imsdk.unity.TencentIMSDK.html#com\_tencent\_imsdk\_unity\_TencentIMSDK\_ConvSetDraft\_System\_String\_com\_tencent\_imsdk\_unity\_enums\_TIMConvType\_com\_tencent\_imsdk\_unity\_types\_DraftParam\_)                                  | 设置指定会话的草稿    |
+| [ConvCancelDraft](https://comm.qq.com/im/sdk/unity\_plus/\_site/api/com.tencent.imsdk.unity.TencentIMSDK.html#com\_tencent\_imsdk\_unity\_TencentIMSDK\_ConvCancelDraft\_System\_String\_com\_tencent\_imsdk\_unity\_enums\_TIMConvType\_)                                                                           | 删除指定会话的草稿    |
